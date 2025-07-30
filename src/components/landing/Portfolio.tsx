@@ -15,7 +15,7 @@ const portfolioItems = [
     src: '/landing/507.png',
     alt: 'Coinseeker project screenshot',
     title: 'Coinseeker',
-    description: 'Coinseeker helps users discover and analyze new and promising cryptocurrency projects with in-depth data, community insights, and expert reviews.',
+    description: 'Coinseeker helps users discover and analyze new and promising cryptocurrency projects with in-depth data, community insights, and expert reviews. Coinseeker was acquired by Titan Lab for $30M in January 2025, becoming one of the most notable M&A deals in blockchain analytics.',
   },
 ];
 
