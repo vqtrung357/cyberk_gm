@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import { Linkedin, Facebook, Send } from 'lucide-react';
 
 const CTA = () => {
   return (
@@ -13,6 +14,32 @@ const CTA = () => {
         <Button size="lg" className="bg-white text-black hover:bg-gray-200 transition-colors">
           Get in Touch
         </Button>
+        <div className="flex justify-center gap-6 mt-8">
+          <a
+            href="https://www.linkedin.com/company/cyberk-io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <Linkedin className="h-6 w-6 text-gray-400 hover:text-white transition-colors" />
+          </a>
+          <a
+            href="https://www.facebook.com/Cyberk.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <Facebook className="h-6 w-6 text-gray-400 hover:text-white transition-colors" />
+          </a>
+          <a
+            href="https://t.me/cyberk_anderson"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Telegram"
+          >
+            <Send className="h-6 w-6 text-gray-400 hover:text-white transition-colors" />
+          </a>
+        </div>
       </div>
     </section>
   );
