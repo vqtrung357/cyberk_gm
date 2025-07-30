@@ -20,7 +20,7 @@ const portfolioItems = [
   {
     src: '/landing/373shots_so.png',
     alt: 'New project screenshot',
-    title: 'New Project',
+    title: 'Oracler',
     description: 'Please provide a description for this project.',
   },
 ];
