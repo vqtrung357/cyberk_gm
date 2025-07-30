@@ -49,6 +49,9 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
+        <div className="text-center mt-16">
+          <p className="text-lg text-gray-400 italic">And many more successful projects...</p>
+        </div>
       </div>
     </section>
   );
