@@ -17,6 +17,12 @@ const portfolioItems = [
     title: 'Coinseeker',
     description: 'Coinseeker helps users discover and analyze new and promising cryptocurrency projects with in-depth data, community insights, and expert reviews. Coinseeker was acquired by Titan Lab for $30M in January 2025, becoming one of the most notable M&A deals in blockchain analytics.',
   },
+  {
+    src: '/landing/373shots_so.png',
+    alt: 'New project screenshot',
+    title: 'New Project',
+    description: 'Please provide a description for this project.',
+  },
 ];
 
 const Portfolio = () => {
