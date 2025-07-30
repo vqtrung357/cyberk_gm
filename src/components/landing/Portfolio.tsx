@@ -21,7 +21,7 @@ const portfolioItems = [
     src: '/landing/373shots_so.png',
     alt: 'New project screenshot',
     title: 'Oracler',
-    description: 'Please provide a description for this project.',
+    description: 'Oracler is a decentralized oracle solution that connects off-chain data to smart contracts on the blockchain, ensuring authenticity and transparency for DeFi, GameFi, and other applications.',
   },
 ];
 
