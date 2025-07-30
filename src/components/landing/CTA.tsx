@@ -10,7 +10,7 @@ const CTA = () => {
         <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-8">
           Have a project in mind? We'd love to hear about it. Reach out and let's create something amazing.
         </p>
-        <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black transition-colors">
+        <Button size="lg" className="bg-white text-black hover:bg-gray-200 transition-colors">
           Get in Touch
         </Button>
       </div>
