@@ -18,8 +18,8 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-black/80 backdrop-blur-sm">
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
-        <a href="#" className="text-2xl font-bold tracking-wider">
-          Cyberk.io
+        <a href="#">
+          <img src="/logo.svg" alt="Cyberk.io Logo" className="h-8 w-auto" />
         </a>
         <nav className="hidden md:flex space-x-6">
           {navLinks.map((link) => (
