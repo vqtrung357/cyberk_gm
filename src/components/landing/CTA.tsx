@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 
-const Contact = () => {
+const CTA = () => {
   return (
     <section id="contact" className="py-20 md:py-32 bg-gray-900/50">
       <div className="container mx-auto px-4 md:px-6 text-center">
@@ -18,4 +18,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default CTA;
