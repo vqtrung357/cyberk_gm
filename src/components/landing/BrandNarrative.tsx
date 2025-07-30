@@ -21,7 +21,7 @@ const BrandNarrative = () => {
           </div>
           <div className="hidden md:flex items-center justify-center">
             <img
-              src="/landing/our-story-image.png"
+              src="/landing/our-story-image.jpg"
               alt="Our Story at Cyberk"
               className="rounded-lg object-cover w-full h-auto max-h-[400px] shadow-lg"
             />
