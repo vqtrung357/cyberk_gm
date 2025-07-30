@@ -10,13 +10,13 @@ const BrandNarrative = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 text-gray-300 leading-relaxed">
             <p>
-              Jon and Anderson, the founders of Cyberk, met through their mutual friend Logan in 2021, instantly connecting over their shared expertise and boundless passion for technology and software engineering. United by a bold vision, they set out to build a strong, trustworthy startup community across Asia.
+              Before starting Cyberk, Jon and Anderson were founders chasing their own startup dreams. They had the vision, but they still hit the wall that slows down so many early-stage teams: slow execution. By the time their MVP was ready, the market had moved on, cost them time, money, and a shot at success.
             </p>
             <p>
-              Their journey began with a simple but powerful philosophy: "Together." By joining forces, they believed they could spark real breakthroughs—collaborating, growing, and creating lasting value as one. With Vietnam rising as a powerhouse in the global tech scene, Jon and Anderson saw the opportunity to lead the charge in the decentralized future.
+              They realized what most early-stage startups truly need: a lean, reliable, execution-first tech team that understands how critical time-to-market is—especially in the fast-moving world of Web3. No over-engineering. Just a team that moves fast, builds well, and delivers results.
             </p>
             <p>
-              They’ve lived the startup grind—racing to MVP, facing hiring challenges, and searching for partners who understand that speed is everything. Time-to-market controls opportunity and management costs, making or breaking a startup’s success. That’s why Cyberk exists: to empower ambitious startups with rapid, reliable, and innovative Web3 solutions—turning bold ideas into reality, fast.
+              So they created Cyberk—a Web3-focused tech studio built by founders, for founders. Cyberk is the partner that understands what’s at stake—because they’ve been there too.
             </p>
           </div>
           <div className="hidden md:flex items-center justify-center">
