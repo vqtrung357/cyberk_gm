@@ -19,10 +19,12 @@ const BrandNarrative = () => {
               They’ve lived the startup grind—racing to MVP, facing hiring challenges, and searching for partners who understand that speed is everything. Time-to-market controls opportunity and management costs, making or breaking a startup’s success. That’s why Cyberk exists: to empower ambitious startups with rapid, reliable, and innovative Web3 solutions—turning bold ideas into reality, fast.
             </p>
           </div>
-          <div className="hidden md:flex items-center justify-center p-8 bg-black rounded-lg">
-            <div className="w-full h-64 border-2 border-dashed border-gray-700 rounded-lg flex items-center justify-center">
-              <Code className="w-16 h-16 text-gray-600" />
-            </div>
+          <div className="hidden md:flex items-center justify-center">
+            <img
+              src="/landing/our-story-image.png"
+              alt="Our Story at Cyberk"
+              className="rounded-lg object-cover w-full h-auto max-h-[400px] shadow-lg"
+            />
           </div>
         </div>
       </div>
