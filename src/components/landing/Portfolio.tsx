@@ -1,14 +1,14 @@
 const portfolioItems = [
   {
-    src: '/828.png',
+    src: '/landing/828.png',
     alt: 'Aethir project screenshot',
   },
   {
-    src: '/583.png',
+    src: '/landing/583.png',
     alt: 'Helix project screenshot',
   },
   {
-    src: '/507.png',
+    src: '/landing/507.png',
     alt: 'Coinseeker project screenshot',
   },
 ];
