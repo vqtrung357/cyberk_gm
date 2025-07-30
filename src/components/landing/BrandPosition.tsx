@@ -3,7 +3,7 @@ const BrandPosition = () => {
     <section className="py-20 md:py-32 bg-black">
       <div className="container mx-auto px-4 md:px-6 text-center max-w-4xl">
         <h2 className="text-4xl md:text-5xl font-bold mb-8">
-          Brand Position
+          Who We Are
         </h2>
         <div className="space-y-6 text-white font-bold leading-relaxed text-lg md:text-xl">
           <p>
