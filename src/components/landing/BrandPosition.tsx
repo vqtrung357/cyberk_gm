@@ -5,7 +5,7 @@ const BrandPosition = () => {
         <h2 className="text-4xl md:text-5xl font-bold mb-8">
           Who We Are
         </h2>
-        <div className="space-y-6 text-white font-bold leading-relaxed text-lg md:text-xl">
+        <div className="space-y-6 text-white leading-relaxed text-lg md:text-xl">
           <p>
             Cyberk is the fastest Web3 technology partner in the industry. We guarantee MVP delivery in less than 30 days—empowering startups and entrepreneurs to move from idea to market faster than anyone else, without sacrificing quality or innovation.
           </p>
