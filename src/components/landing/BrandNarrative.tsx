@@ -19,7 +19,7 @@ const BrandNarrative = () => {
               So they created Cyberk—a Web3-focused tech studio built by founders, for founders. Cyberk is the partner that understands what’s at stake—because they’ve been there too.
             </p>
           </div>
-          <div className="hidden md:flex items-center justify-center">
+          <div className="flex items-center justify-center">
             <img
               src="/landing/our-story-image.jpg"
               alt="Our Story at Cyberk"
