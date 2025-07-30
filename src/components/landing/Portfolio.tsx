@@ -9,7 +9,7 @@ const portfolioItems = [
     src: '/landing/583.png',
     alt: 'Helix project screenshot',
     title: 'Helix',
-    description: 'Helix is a leading platform in the decentralized finance space, providing innovative solutions for secure and efficient asset trading across multiple blockchain networks.',
+    description: 'Helix is a multi-strategy RWA (Real World Asset) DeFi platform powered by the USHD stablecoin, offering institutional-grade access to real-world assets, sustainable yield, and growth opportunities.',
   },
   {
     src: '/landing/507.png',
