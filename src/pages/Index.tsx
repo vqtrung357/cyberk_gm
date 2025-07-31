@@ -21,8 +21,8 @@ const IndexPage = () => {
         <BrandPosition />
         <ShowcaseImage />
         <BrandNarrative />
-        <CyberkSolutions />
         <BrandVision />
+        <CyberkSolutions />
         <BrandValues />
         <Portfolio />
         <Testimonials />
