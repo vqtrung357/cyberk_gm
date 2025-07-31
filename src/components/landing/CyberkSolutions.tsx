@@ -1,5 +1,3 @@
-import { ChevronRight } from 'lucide-react';
-
 const solutions = [
   {
     title: 'MVP Development',
@@ -33,15 +31,12 @@ const CyberkSolutions = () => {
         </div>
         <div className="space-y-6">
           {solutions.map((solution) => (
-            <a href="#" key={solution.title} className="group block bg-gray-900/50 p-8 rounded-lg border border-gray-800 hover:border-white transition-all duration-300">
-              <div className="flex justify-between items-center">
-                <div>
-                  <h3 className="text-2xl font-bold mb-2">{solution.title}</h3>
-                  <p className="text-gray-400 leading-relaxed max-w-2xl">{solution.description}</p>
-                </div>
-                <ChevronRight className="w-8 h-8 text-gray-600 group-hover:text-white transition-transform duration-300 group-hover:translate-x-1 flex-shrink-0 ml-4" />
+            <div key={solution.title} className="block bg-gray-900/50 p-8 rounded-lg border border-gray-800">
+              <div>
+                <h3 className="text-2xl font-bold mb-2">{solution.title}</h3>
+                <p className="text-gray-400 leading-relaxed max-w-2xl">{solution.description}</p>
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>
