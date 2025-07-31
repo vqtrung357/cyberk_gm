@@ -13,7 +13,7 @@ import Testimonials from "../components/landing/Testimonials";
 
 const IndexPage = () => {
   return (
-    <div className="bg-black text-white font-sans">
+    <div className="bg-black text-white font-sans w-full overflow-x-hidden">
       <Header />
       <main>
         <Hero />
