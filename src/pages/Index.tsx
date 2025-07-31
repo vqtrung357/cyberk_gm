@@ -10,6 +10,7 @@ import Hero from "../components/landing/Hero";
 import Portfolio from "../components/landing/Portfolio";
 import ShowcaseImage from "../components/landing/ShowcaseImage";
 import Testimonials from "../components/landing/Testimonials";
+import CyberkSolutions from "../components/landing/CyberkSolutions";
 
 const IndexPage = () => {
   return (
@@ -20,6 +21,7 @@ const IndexPage = () => {
         <BrandPosition />
         <ShowcaseImage />
         <BrandNarrative />
+        <CyberkSolutions />
         <BrandVision />
         <BrandValues />
         <Portfolio />
