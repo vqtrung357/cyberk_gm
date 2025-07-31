@@ -1,60 +1,47 @@
-import { Lightbulb, PenTool, Code, Server, Shield, Rocket } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 
 const solutions = [
   {
-    icon: <Lightbulb className="w-8 h-8 mb-4 text-white" />,
-    title: 'Ideation & Strategy',
-    description: 'We help you refine your concept, define your product-market fit, and create a roadmap for success.',
+    title: 'MVP Development',
+    description: 'Turn your idea into a real product in less than 30 days. Our service helps you validate your concept quickly, reduce time-to-market, and minimize wasted investment.',
   },
   {
-    icon: <PenTool className="w-8 h-8 mb-4 text-white" />,
-    title: 'UI/UX Design',
-    description: 'Our design team creates intuitive and engaging user experiences that drive adoption and retention.',
-  },
-  {
-    icon: <Code className="w-8 h-8 mb-4 text-white" />,
     title: 'Smart Contract Development',
-    description: 'We build secure, audited, and optimized smart contracts for any blockchain ecosystem.',
+    description: 'Get secure, reliable, and upgradable smart contracts for any major blockchain. We solve the complexity by providing expert consulting, design, and deployment.',
   },
   {
-    icon: <Server className="w-8 h-8 mb-4 text-white" />,
-    title: 'Backend Development',
-    description: 'Our backend solutions are scalable, reliable, and built to support your dApp\'s growth.',
+    title: 'Dedicated Lab',
+    description: 'Dedicated Lab is a service where Cyberk and the client jointly build a long-term development team, fully dedicated to your product.',
   },
   {
-    icon: <Shield className="w-8 h-8 mb-4 text-white" />,
-    title: 'Security Audits',
-    description: 'We provide comprehensive security audits to ensure your smart contracts and dApps are safe from vulnerabilities.',
-  },
-  {
-    icon: <Rocket className="w-8 h-8 mb-4 text-white" />,
-    title: 'Launch & Scaling',
-    description: 'We support you through launch and beyond, helping you scale your platform and reach a global audience.',
+    title: 'MVP Agent Development',
+    description: 'Cyberk\'s MVP Agent Development service helps you quickly turn your idea of an “AI employee” into a real, working product.',
   },
 ];
 
 const CyberkSolutions = () => {
   return (
-    <section id="solutions" className="py-20 md:py-32 bg-gray-900/50">
-      <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+    <section id="solutions" className="py-20 md:py-32 bg-black">
+      <div className="container mx-auto px-4 md:px-6 max-w-4xl">
+        <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Cyberk Solutions
+              Cyberk Solutions
             </h2>
             <p className="text-lg text-gray-400">
-            We offer a full suite of services to bring your Web3 vision to life.
+              We offer a full suite of services to bring your Web3 vision to life.
             </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="space-y-6">
           {solutions.map((solution) => (
-            <div
-              key={solution.title}
-              className="bg-black p-8 rounded-lg border border-gray-800 hover:border-white hover:scale-105 transition-all duration-300"
-            >
-              {solution.icon}
-              <h3 className="text-xl font-bold mb-3">{solution.title}</h3>
-              <p className="text-gray-400 leading-relaxed">{solution.description}</p>
-            </div>
+            <a href="#" key={solution.title} className="group block bg-gray-900/50 p-8 rounded-lg border border-gray-800 hover:border-white transition-all duration-300">
+              <div className="flex justify-between items-center">
+                <div>
+                  <h3 className="text-2xl font-bold mb-2">{solution.title}</h3>
+                  <p className="text-gray-400 leading-relaxed max-w-2xl">{solution.description}</p>
+                </div>
+                <ChevronRight className="w-8 h-8 text-gray-600 group-hover:text-white transition-transform duration-300 group-hover:translate-x-1 flex-shrink-0 ml-4" />
+              </div>
+            </a>
           ))}
         </div>
       </div>
