@@ -13,9 +13,9 @@ import Testimonials from "../components/landing/Testimonials";
 
 const IndexPage = () => {
   return (
-    <div className="bg-black text-white font-sans w-full overflow-x-hidden">
+    <div className="bg-black text-white font-sans w-full">
       <Header />
-      <main>
+      <main className="overflow-x-hidden">
         <Hero />
         <BrandPosition />
         <ShowcaseImage />
