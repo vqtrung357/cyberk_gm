@@ -5,7 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { useState } from 'react';
 
 const navLinks = [
-  { name: 'Brand', href: '#brand' },
+  { name: 'About', href: '#about' },
   { name: 'Vision', href: '#vision' },
   { name: 'Values', href: '#values' },
   { name: 'Portfolio', href: '#portfolio' },
