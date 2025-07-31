@@ -7,7 +7,7 @@ const BrandPosition = () => {
           <div className="relative flex flex-col justify-center p-8 md:p-12 border border-gray-800 rounded-lg overflow-hidden min-h-[350px]">
             <div className="relative z-10">
               <h3 className="text-3xl md:text-4xl font-bold mb-4">
-                CyberK is the fastest Web3 technology partner in the industry
+                Cyberk is the fastest Web3 technology partner in the industry
               </h3>
               <p className="text-gray-400 leading-relaxed text-lg">
                 We guarantee MVP delivery in less than 30 days — empowering startups and entrepreneurs to move from idea to market faster than anyone else.
@@ -24,7 +24,7 @@ const BrandPosition = () => {
           <div className="relative flex flex-col justify-center p-8 md:p-12 border border-gray-800 rounded-lg overflow-hidden min-h-[350px]">
             <div className="relative z-10">
               <h3 className="text-3xl md:text-4xl font-bold mb-4">
-                CyberK is built for entrepreneurs and early-stage startups.
+                Cyberk is built for entrepreneurs and early-stage startups.
               </h3>
               <p className="text-gray-400 leading-relaxed text-lg">
                 For ambitious innovators ready to make their mark—and raise their next round—in Web3, Cyberk is the launchpad to success.
