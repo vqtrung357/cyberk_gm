@@ -16,7 +16,7 @@ const BrandPosition = () => {
             <img
               src="/landing/brand-chart.svg"
               alt="Decorative chart graphic"
-              className="absolute bottom-0 left-0 w-1/2 md:w-2/3 max-w-xs hidden md:block"
+              className="absolute bottom-0 left-0 w-1/2 md:w-2/3 max-w-xs"
             />
           </div>
 
@@ -33,7 +33,7 @@ const BrandPosition = () => {
             <img
               src="/landing/brand-icons.svg"
               alt="Decorative icons graphic"
-              className="absolute top-0 right-0 w-1/2 md:w-2/3 max-w-xs hidden md:block"
+              className="absolute top-0 right-0 w-1/2 md:w-2/3 max-w-xs"
             />
           </div>
         </div>
